@@ -26,21 +26,25 @@ class TopHeader extends Component{
 
         return (
             <div className="TopHeader">
+
                 <div className="SocialMediaIcons">
                     <i className="fab fa-facebook-f"></i>
                     <i className="fab fa-google-plus-g"></i>
                     <i className="fab fa-instagram"></i>
                     <i className="fab fa-youtube"></i>
+                    <hi className="h1-tag">Follow us on atata social platform</hi>
                 </div>
+
                 <div>
                     <ul className="TopMenu">
                         <li className="MenuItem">
                             <i className="far fa-user-circle"></i>
-                            <Link to="/account">{this.props.auth.isAuthenticated ? this.props.auth.user.firstName: 'My Account'}</Link>
+                            <Link className='my-Account' to="/account">{this.props.auth.isAuthenticated ? this.props.auth.user.firstName: 'My Account'}</Link>
                             {guestAccount}
                         </li>
                     </ul>
                 </div>
+
             </div>
         );
     }

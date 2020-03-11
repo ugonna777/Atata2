@@ -131,8 +131,8 @@ class Login extends Component {
 
                 </div>
                 <div style={{display: 'flex', justifyContent: 'space-between'}}>
-                    <Link to="/signup">Create a new account</Link>
-                    <Link to="/forget-password">Forgot Password ?</Link>
+                    <Link className='create-Account' to="/signup">Create a new account</Link>
+                    <Link className='forget-password' to="/forget-password">Forgot Password ?</Link>
                 </div>
                 
                 

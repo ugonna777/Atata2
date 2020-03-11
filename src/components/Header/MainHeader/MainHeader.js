@@ -14,11 +14,11 @@ const MainHeader = props => {
             <Logo />
             <div>
                 <div className="SearchOption">
-                    <select>
+                    <select className="category">
                         <option>All Categories</option>
                     </select>
                     <input type="text" />
-                    <button>
+                    <button className="search-icon">
                         <i className="fas fa-search"></i>
                     </button>
                 </div>

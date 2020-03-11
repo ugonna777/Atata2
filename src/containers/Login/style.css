@@ -12,6 +12,7 @@
     font-size: 30px;
     text-align: center;
     padding: 20px 0;
+    color: #692A0c;
 }
 .LoginWrapper{
     margin: 30px 0;
@@ -21,4 +22,12 @@
 
 *:focus{
     outline: none;
+}
+
+.create-Account {
+    color: #692A0C;
+}
+
+.forget-password {
+    color: #692A0C;
 }

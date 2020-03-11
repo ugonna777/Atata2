@@ -8,7 +8,7 @@ const Logo = props => {
         <Link to="/">
             <div className="Logo" {...props}>
                 {/* <img src="./logo/logo.png" /> */}
-                <span>Khan Store</span>
+                <span>Atata Africa</span>
             </div>
         </Link>
         

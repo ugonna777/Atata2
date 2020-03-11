@@ -57,7 +57,7 @@ class BottomHeader extends Component{
                         
                         <ul className="Dropdown">
                         {cat}
-                           {/* <li className="Column">
+                           <li className="Column">
                               <span className="ColumnTitle">
                                   <Link to="">Accessories</Link>
                               </span>
@@ -85,7 +85,7 @@ class BottomHeader extends Component{
                                 <ul className="ColumnSubMenu">
                                     <li><Link to="">Shorts</Link></li>
                                 </ul> 
-                            </li> */}
+                            </li> 
                         </ul>
                     </li>
                     <li className="MenuItem"><Link to="/categories">Categories</Link></li>

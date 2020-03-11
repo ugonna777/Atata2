@@ -5,9 +5,9 @@ const Categories = prosp => {
     return (
         <React.Fragment>
             <span>Categories</span>
-            <ul class="CategoryList">
+            <ul className="CategoryList">
                 <li>
-                    <span>
+                    <span className='Accessories'>
                         <a href="#">Accessories</a>
                     </span>
                     <ul>

@@ -1,13 +1,25 @@
 .TopHeader{
     width: 100%;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #692A0C;
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
 }
+
+.SocialMediaIcons {
+    display: block;
+    color: #692A0C;
+}
+
+.h1-tag {
+    /* margin-left: 5px; */
+    padding: 10px;
+}
+
 .TopMenu{
     position: relative;
 }
+
 .Dropdown.Account{
     width: 150px;
     right: 0;
@@ -22,7 +34,13 @@
     display: block;
     padding: 5px 20px;
     font-family: 'Lato', sans-serif;
+    
 }
 .Dropdown.Account > li > a:hover{
     background: #eee;
+}
+
+.my-Account {
+    color: #692A0C;
+    /* font-weight: bold; */
 }
